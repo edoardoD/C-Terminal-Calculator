@@ -6,6 +6,8 @@ using namespace std;
 
 int main()
 {
+    std::functionCaller<int, void> decisionTree;
+
     cout<<'\n'<<"Enter the command to proceed: ";
     string input;
     getline(cin, input);

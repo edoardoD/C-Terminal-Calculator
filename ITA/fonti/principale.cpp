@@ -7,9 +7,17 @@ using namespace std;
 
 int main()
 {
+    std::map<int, void> imputDecider;
     cout<<'\n'<<"Immettere i commandi per procedere: ";
-    string input;
+    int input;
     getline(cin, input);
+
+    imputDecider[0] = fisica_classica();
+    imputDecider[1] = calcolatrice_base();
+    // if input is integer 
+    if(){
+        inputDecider[input];
+    }
 
     if (input=="fisica classica")
     {
